@@ -12,7 +12,7 @@ RUN pnpm build
 
 FROM docker.io/caddy:alpine
 
-EXPOSE 80
+EXPOSE 8080
 
 WORKDIR /srv
 
