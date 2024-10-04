@@ -428,19 +428,6 @@ const ConfigForXd = () => {
             </For>
           </select>
         </div>
-
-        <div class="flex flex-col">
-          <div class="py-2 text-center text-lg font-semibold">&nbsp;</div>
-          <Button
-            class="btn-info"
-            onClick={() => {
-              setSelectedEndpoint('')
-              navigate(ROUTES.Setup)
-            }}
-          >
-            {t('switchEndpoint')}
-          </Button>
-        </div>
       </div>
 
       <div class="flex flex-col gap-2">
